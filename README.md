@@ -20,7 +20,7 @@
 <SERVICE_NAME>[--<FEATURE_NAME>]
 
 // 如果提供服务，访问域名为（域名规则略诡异，因为好买证书）
-https?://<SERVICE_NAME>[--<FEATURE_NAME>]__<GROUP_NAME>[--<ENV>].<BASE_HOSTNAME>
+https?://<SERVICE_NAME>[--<FEATURE_NAME>]---<GROUP_NAME>[--<ENV>].<BASE_HOSTNAME>
 ```
 
 * `master` 为稳定分支，只有当代码通过测试和 Code Review 后方可合并进入，对应环境为 `demo`。
